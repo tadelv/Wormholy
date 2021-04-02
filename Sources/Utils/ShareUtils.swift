@@ -6,7 +6,7 @@
 //  Copyright © 2020 Wormholy. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 final class ShareUtils {
 
