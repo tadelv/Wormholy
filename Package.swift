@@ -21,7 +21,8 @@ let package = Package(
         .target(
             name: "Wormholy",
             dependencies: [],
-            path: "Sources"),
+            path: "Sources",
+            exclude: ["Objc"]),
         .testTarget(
             name: "WormholyTests",
             dependencies: ["Wormholy"],
