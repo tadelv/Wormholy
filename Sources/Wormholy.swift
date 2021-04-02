@@ -126,7 +126,7 @@ public class Wormholy: NSObject
 
 extension Wormholy {
 
-    static func awake() {
+    public static func awake() {
         swizzleAction
         initializeAction
     }

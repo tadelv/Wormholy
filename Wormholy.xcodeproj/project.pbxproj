@@ -152,7 +152,7 @@
 		64DD525923F84A5F00AB92C4 /* RequestResponseExportOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestResponseExportOption.swift; sourceTree = "<group>"; };
 		64DD525B23F86B3D00AB92C4 /* ShareUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareUtils.swift; sourceTree = "<group>"; };
 		64DD526F23F9B7FB00AB92C4 /* Postman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postman.swift; sourceTree = "<group>"; };
-		8933C7841EB5B820000D00A4 /* Wormholy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wormholy.swift; sourceTree = "<group>"; };
+		8933C7841EB5B820000D00A4 /* Wormholy.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = Wormholy.swift; sourceTree = "<group>"; tabWidth = 2; };
 		8933C7891EB5B82A000D00A4 /* WormholyTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WormholyTests.swift; sourceTree = "<group>"; };
 		AD2FAA261CD0B6D800659CF4 /* Wormholy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Wormholy.plist; sourceTree = "<group>"; };
 		AD2FAA281CD0B6E100659CF4 /* WormholyTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = WormholyTests.plist; sourceTree = "<group>"; };
@@ -472,7 +472,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = Wormholy;
 				TargetAttributes = {
 					45087188207E59FE00EE2D31 = {
@@ -654,7 +654,7 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = WormholyDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.6.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codeido.Wormholy.WormholyDemo;
@@ -682,7 +682,7 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = WormholyDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.6.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.codeido.Wormholy.WormholyDemo;
@@ -717,6 +717,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -742,7 +743,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -777,6 +778,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -796,7 +798,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -825,7 +827,7 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Configs/Wormholy.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = mh_dylib;
 				MARKETING_VERSION = 1.6.4;
@@ -864,7 +866,7 @@
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Configs/Wormholy.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = mh_dylib;
 				MARKETING_VERSION = 1.6.4;
